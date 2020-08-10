@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<robot name="frame">
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://udm_urdf/mesh/frame.stl"/> 
+      </geometry>
+    </visual>
+  </link>
+</robot>
