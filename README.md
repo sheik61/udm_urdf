@@ -1,15 +1,10 @@
-# udm_urdf
-Travaux pratiques concernant l'utlisation de l'urdf
+# Université des Mascareignes
 
-Ces fichiers continnent des différents urdf crée pour les travaux pratiques pour le cours : Robotique industrielle. Pour pouvoir utiliser ce package il faut installer le package joint_state_publisher_gui, en faisant;
+## Master Intelligence Artificielle et Robotique
 
-sudo apt install ros-<your_ros_version>-joint-state-publisher-gui.
+**TP 02 : Créer un URDF et le mettre en mouvement
 
-Et si besoin est de faire chmod +X du directoire.
+**Encadrant : Mr. Khadimoullah Ramoth
 
-Pour lancer un fichier urdf il faut passer la commande suivante;
-roslaunch udm_urdf visualize_urdf.launch model:='$(find udm_urdf)/urdf/main.urdf'
+**Etudiant : Roham Sheik Minhajuddin Ubayde
 
-Et sur rviz cliquer sur ADD, puis Robot Model
-
-Et donc pour visualiser les différents fichiers urdf qui sont; box.urdf, mesh.urdf, cylinder.urdf, sphere.urdf, et main.urdf, il suffit de changer le dernier argumen dans roslaunch
